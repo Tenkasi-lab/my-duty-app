@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # 1. Google Sheet CSV Link (Neenga kudutha link-ah CSV format-la mathiruken)
-SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQaLlOSwTCkuUJSOxwaE_BgrO1j1D7vexky926Ufcju5H9t1PthxYEs9BcxyCTcxInosGvvKS_C_rIb/pubcsv?gid=1316908717"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQaLlOSwTCkuUJSOxwaE_BgrO1j1D7vexky926Ufcju5H9t1PthxYEs9BcxyCTcxInosGvvKS_C_rIb/pub?gid=1316908717&output=csv"
 
 st.set_page_config(page_title="Tenkasi Lab Smart Rota", layout="wide")
 st.title("⚙️ Automated Duty Rotation System")
